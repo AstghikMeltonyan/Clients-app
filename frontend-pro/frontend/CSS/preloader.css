@@ -1,0 +1,38 @@
+.preloader {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  height: 300px;
+  width: 100%;
+  background-color: var(--color-white);
+}
+
+#loader {
+  animation: spinner 1s ease infinite;
+}
+
+@keyframes spinner {
+  0%{
+    transform:rotate(0deg)
+  }
+
+  25%{
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform:rotate(180deg);
+  }
+
+  50% {
+    transform:rotate(270deg);
+  }
+
+  100%{
+    transform:rotate(360deg)
+  }
+}
