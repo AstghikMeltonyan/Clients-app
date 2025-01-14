@@ -1,0 +1,140 @@
+@media (max-width: 1050px) {
+  .display-info__item--create {
+    width: 13%;
+    margin-right: 3%;
+    background-position: 60px 16px;
+  }
+
+  .display-info__item--change {
+    width: 14%;
+    background-position: 70px 16px;
+  }
+
+  .clients__actions {
+    width: 24%;
+  }
+}
+
+@media (max-width: 981px) {
+  .clients__container {
+    width: 768px;
+  }
+
+  .display-info__item--name {
+    width: 29%;
+  }
+
+  .display-info__item--create {
+    width: 13%;
+    margin-right: 1%;
+  }
+
+  .display-info__item--change {
+    width: 13%;
+    margin-right: 1%;
+  }
+
+  .display-info__item--contacts {
+    width: 16%;
+  }
+
+  .client__id {
+    margin-right: 3%;
+  }
+
+  .clients__full-name {
+    width: 27%;
+  }
+
+  .clients__created {
+    width: 13%;
+  }
+
+  .clients__changed {
+    width: 13%;
+  }
+
+  .clients__contacts {
+    width: 17%;
+  }
+
+  .contacts__link {
+    width: 11%;
+  }
+
+  .clients__actions {
+    width: 12%;
+  }
+}
+
+@media (max-width: 768px) {
+    .clients__table {
+      width: 768px;
+      overflow-x: auto;
+    }
+}
+
+@media all and (max-width: 500px) {
+  .header__container {
+    justify-content: center;
+  }
+
+  .header__logo {
+    margin-right: 0;
+  }
+
+  .header__form {
+    display: none;
+  }
+
+  .modal__content {
+    max-width: 375px;
+  }
+
+  .modal__form {
+    width: 315px;
+  }
+
+  .contact {
+    width: 315px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .modal__content {
+    max-width: 375px;
+  }
+
+  .modal__form {
+    width: 315px;
+  }
+
+  .contact {
+    width: 315px;
+  }
+}
+
+@media all and (max-width: 390px) {
+  body {
+    margin: 0;
+  }
+  .clients__container {
+    padding: 0;
+  }
+
+  .modal__content {
+    max-width: 315px;
+  }
+
+  .modal__form {
+    width: 255px;
+  }
+
+  .contact {
+    width: 280px;
+  }
+
+  .delete-modal__content {
+    min-width: 270px;
+  }
+}

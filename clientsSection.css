@@ -1,0 +1,154 @@
+.clients {
+  padding-top: 115px;
+}
+
+.clients__heading {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.display-info {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.display-info__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.clients__thead {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clients__tbody {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.display-info__item {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  text-align: start;
+  color: var(--color-dark-gray);
+}
+
+.display-info__item--id,
+.display-info__sorting {
+  text-transform: uppercase;
+  color: var(--color-pink);
+}
+
+.display-info__item--id,
+.display-info__item--name,
+.display-info__item--create,
+.display-info__item--change {
+  cursor: pointer;
+  user-select: none;
+}
+
+.display-info__item--id {
+  width: 11%;
+  margin-right: 3px;
+  background-position-x: 16px;
+}
+
+.display-info__item--name {
+  width: 20%;
+  margin-right: 3px;
+  background-position-x: 146px;
+}
+
+.display-info__sorting {
+  padding-left: 16px;
+  font-size: 10px;
+}
+
+.display-info__item--create {
+  width: 16%;
+  background-position-x: 139px;
+}
+
+.display-info__item--change {
+  width: 16%;
+  background-position-x: 134px;
+}
+
+.display-info__item--contacts {
+  width: 12%;
+}
+
+.display-info__item--actions {
+  width: 15%;
+  padding-left: 12px;
+}
+
+.clients__btn {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 12px 26px;
+  align-self: center;
+  font-size: 14px;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  border: 1px solid var(--color-pink);
+  color: var(--color-pink);
+}
+
+.clients__btn svg {
+  display: block;
+  margin-right: 10px;
+  transition: fill 0.3s ease-in-out;
+  fill: var(--color-pink);
+}
+
+.clients__btn:hover {
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  background-color: var(--color-pink);
+  color: var(--color-white);
+}
+
+.clients__btn:hover svg {
+  transition: fill 0.3s ease-in-out;
+  fill: var(--color-white);
+}
+
+.create__span,
+.change__span {
+  display: block;
+  height: 15px;
+  background-image: url("../assest/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: center 80px;
+}
+
+.sort-up,
+.sort-down {
+  background-repeat: no-repeat;  
+  background-position-y: center;
+}
+
+.sort-up {
+  background-image: url("../assest/arrow-up.svg");
+}
+
+.sort-down {
+  background-image: url("../assest/arrow-down.svg");
+}
+
+.clients__table {
+  position: relative;
+  overflow: hidden;
+}
+
+.clients__container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
