@@ -123,7 +123,7 @@
 .change__span {
   display: block;
   height: 15px;
-  background-image: url("../assest/arrow-down.svg");
+  background-image: url("arrow-down.svg");
   background-repeat: no-repeat;
   background-position: center 80px;
 }
@@ -135,11 +135,11 @@
 }
 
 .sort-up {
-  background-image: url("../assest/arrow-up.svg");
+  background-image: url("arrow-up.svg");
 }
 
 .sort-down {
-  background-image: url("../assest/arrow-down.svg");
+  background-image: url("arrow-down.svg");
 }
 
 .clients__table {
