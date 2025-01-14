@@ -1,6 +1,6 @@
 export const getClients = async () => {
   try {
-      const response = await fetch('http://localhost:3000/api/clients', {
+      const response = await fetch('http://localhost:3000/clients', {
         method: 'GET'
       });
 
@@ -14,7 +14,7 @@ export const getClients = async () => {
 
 export const getClient = async (id) => {
     try {
-        const response = await fetch(`http://localhost:3000/api/clients/${id}`, {
+        const response = await fetch(`http://localhost:3000/clients/${id}`, {
           method: 'GET'
         });
   
@@ -28,7 +28,7 @@ export const getClient = async (id) => {
 
 export const sendClientData = async (client, method, id ) => {
   try {
-      const response = await fetch(`http://localhost:3000/api/clients/${method === 'POST' ? '' : id}`, {
+      const response = await fetch(`http://localhost:3000/clients/${method === 'POST' ? '' : id}`, {
           headers: {
               'Content-Type': 'application/json'
           },
@@ -46,7 +46,7 @@ export const sendClientData = async (client, method, id ) => {
 
 export const deleteClientItem = async (id) => {
   try {
-      await fetch(`http://localhost:3000/api/clients/${id}`, {
+      await fetch(`http://localhost:3000/clients/${id}`, {
           method: 'DELETE',
       });
   } catch (error) {
@@ -56,7 +56,7 @@ export const deleteClientItem = async (id) => {
 
 export const findClient = async (value) => {
   try {
-      const response = await fetch(`http://localhost:3000/api/clients?search=${value}`, {
+      const response = await fetch(`http://localhost:3000/clients?search=${value}`, {
           method: 'GET'
       });
 
